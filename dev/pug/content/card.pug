@@ -1,0 +1,11 @@
+mixin card(pathToImg, title, text1, text2) 
+    .card
+        .top
+            img(src=pathToImg)
+        .middle
+            p.title=title
+            span.line
+            p.t1=text1
+            p.t2=text2
+        .bottom
+            a.button(href="#") подробнее

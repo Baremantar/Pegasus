@@ -1,0 +1,50 @@
+.card {
+  max-width: 555px;
+  height: 510px;
+  text-align: center;
+  margin-bottom: 38px;
+  p.title {
+    line-height: 16px;
+    font-size: 29px;
+    margin-top: 23px;
+    font-family: Romul;
+    text-transform: uppercase;
+  }
+  .line {
+    display: flex;
+    margin: 0 auto;
+    width: 85px;
+    height: 1px;
+    background-color: #d0aa8c;
+  }
+  .t1,
+  .t2 {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .t2 {
+    margin-top: 0px;
+  }
+  .button {
+    margin: 25px auto 0;
+    display: flex;
+    border: 2px solid black;
+    width: 270px;
+    height: 39px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight:500;
+    text-decoration: none;
+    color: black;
+    transition:0.2s;
+    &:hover{
+      background-color: #d0aa8c;
+      color:white;
+      border-color: #d0aa8c;
+      transition:0.2s;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.description {
+  display: block;
+  text-align: center;
+  .logo {
+    display: block;
+    p {
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+    .line {
+      z-index: -1;
+      height: 2px;
+      top: 10px;
+      margin: 0px auto;
+      width: 450px;
+      position: relative;
+      background-color: #d0aa8c;
+    }
+    .exc {
+      padding: 0 15px;
+      z-index: 1;
+      background-color: white;
+      line-height: 20px;
+      font-weight: 100;
+      font-family: Romul;
+      font-size: 42px;
+      text-transform: uppercase;
+    }
+  }
+  .text {
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 727px;
+    position: relative;
+    top: 22px;
+    line-height: 15px;
+    font-size: 10px;
+  }
+}

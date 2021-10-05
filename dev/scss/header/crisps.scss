@@ -1,0 +1,25 @@
+.crisps {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  height: 23px;
+  border-bottom: 1px solid #e7e8e9;
+  max-width: 1188px;
+  a {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    padding: 0 7px;
+  }
+  a:hover {
+    transition: 0.2s;
+    color: #d0aa8c;
+  }
+  .events {
+    height: 12px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
