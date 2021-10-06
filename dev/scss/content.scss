@@ -1,10 +1,13 @@
-.content{
-    margin-top: 11px;
+.content {
+  margin-top: 11px;
+  flex: 1 1 auto;
 }
-.card-wrapper{
-    margin-top:75px;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
+.card-wrapper {
+  margin-top: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
 }

@@ -1,14 +1,27 @@
 .card {
-  max-width: 555px;
   height: 510px;
   text-align: center;
   margin-bottom: 38px;
+  padding: 0 5px;
+  .top {
+    img {
+      @media (max-width: 550px) {
+        max-width: 455px;
+      }
+      @media (max-width: 465px) {
+        max-width: 300px;
+      }
+    }
+  }
   p.title {
     line-height: 16px;
     font-size: 29px;
     margin-top: 23px;
     font-family: Romul;
     text-transform: uppercase;
+    @media (max-width: 400px){
+      font-size: 20px;
+    }
   }
   .line {
     display: flex;
@@ -36,15 +49,15 @@
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    font-weight:500;
+    font-weight: 500;
     text-decoration: none;
     color: black;
-    transition:0.2s;
-    &:hover{
+    transition: 0.2s;
+    &:hover {
       background-color: #d0aa8c;
-      color:white;
+      color: white;
       border-color: #d0aa8c;
-      transition:0.2s;
+      transition: 0.2s;
     }
   }
 }

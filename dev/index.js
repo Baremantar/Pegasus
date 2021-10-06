@@ -16,6 +16,7 @@ import "./img/car.png"
 import "./img/racket.png"
 import "./img/luxe-auto.png"
 import "./img/footer.png"
+import "./img/background.png"
 
 import '@fortawesome/fontawesome-free/js/fontawesome'
 import '@fortawesome/fontawesome-free/js/solid'

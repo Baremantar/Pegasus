@@ -3,17 +3,18 @@
 *:before {
   top: 0;
   left: 0;
-  max-width: 1920px;
 }
 body {
   font-family: Montserrat;
   color: #2f2c34;
   margin: 0;
+  position: relative;
+  height: 100%;
 }
 .wrapper {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: 100%;
+  min-height: 100%;
 }
